@@ -112,7 +112,7 @@ float res=(Float.parseFloat(valores[1])*comision)+(Float.parseFloat(valores[2])*
 
 
 
-System.out.print(valores[0]+" tendra un salario de:"+res+" pesos");
+JOptionPane.showMessageDialog(null,valores[0]+" tendra un salario de:"+res+" pesos");
 }
 
 
