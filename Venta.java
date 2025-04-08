@@ -31,7 +31,7 @@ for(int i=0;i<v.length();i++){
 
 if(!(v.charAt(i)>=inicio &&  v.charAt(i)<fin)){
 
-System.out.println("Solamente caracteres permitidos de favor");
+JOptionPane.showMessageDialog(null,"Solamente caracteres permitidos de favor");
 estado=false;
 break;
 
